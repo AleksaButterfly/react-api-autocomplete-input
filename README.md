@@ -13,4 +13,4 @@ Custom autocomplete input that gives suggestions based on your input. As a base 
 
 Feel free to submit pull request.
 
-You can check the project on [CodeSandbox ⚡️](https://codesandbox.io/s/github/AleksaButterfly/react-api-autocomplete-input).
+You can check the project on [CodeSandbox](https://codesandbox.io/s/github/AleksaButterfly/react-api-autocomplete-input).
