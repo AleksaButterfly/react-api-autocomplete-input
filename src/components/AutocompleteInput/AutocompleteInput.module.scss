@@ -1,0 +1,26 @@
+.inputWrapper {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.inputRoot {
+  padding: 12px 0 12px 24px;
+}
+
+.searchIcon {
+  position: absolute;
+  margin-top: -3px;
+
+  height: 15px;
+  width: 15px;
+
+  transform: rotate(90deg);
+}
+
+.searchIconFocused g {
+  stroke: var(--mainColor);
+  stroke-width: 1.4;
+}

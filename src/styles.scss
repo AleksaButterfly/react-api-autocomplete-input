@@ -1,0 +1,17 @@
+:root {
+  --colorWhite: #fff;
+  --colorBright: #f7f7f7;
+  --mainColor: #55f;
+}
+
+body {
+  background-color: var(--colorBright);
+}
+
+.root {
+  font-family: 'Poppins', sans-serif;
+
+  position: relative;
+  max-width: 300px;
+  margin: 0 auto;
+}

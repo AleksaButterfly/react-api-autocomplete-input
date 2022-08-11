@@ -1,0 +1,38 @@
+.predictions {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  
+  margin: 12px 0 0;
+  padding: 12px 0 ;
+
+  /* Style */
+  background-color: var(--mainColor);
+  border-radius: 4px;
+  list-style: none;
+}
+
+.predictionItem {
+  /* Position */
+  position: relative;
+  left: 0;
+
+  padding: 8px 24px;
+
+  /* Font */
+  color: var(--colorWhite);
+  line-height: 24px;
+  text-align: left;
+
+  cursor: pointer;
+  opacity: 0.8;
+  transition: all 0.15s ease-in-out;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+  &:hover {
+    left: 12px;
+    opacity: 1;
+  }
+}
